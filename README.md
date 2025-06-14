@@ -41,3 +41,24 @@ A Quora-like question and answer web application built using Node.js, Express, a
 git clone https://github.com/SameerSinha1234567/restfulapi.git
 cd restfulapi
 
+2.Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+
+3.Start the server:
+
+bash
+Copy
+Edit
+node app.js
+
+4.Open your browser and go to:
+
+arduino
+Copy
+Edit
+http://localhost:3000
+
