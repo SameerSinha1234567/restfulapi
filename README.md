@@ -1,56 +1,43 @@
+# restfulapi
 
-A Quora-like Q&A platform backend built , providing RESTful API endpoints to create, read, update, and delete questions and answers. This backend serves a frontend built with EJS templates, HTML, CSS, and JavaScript.
+A Quora-like question and answer web application built using Node.js, Express, and EJS templates. This app uses in-memory arrays to store questions and answers, providing simple CRUD functionality without a database.
 
-🚀 Features
-Question & Answer Management: CRUD operations on questions and answers.
+---
 
-RESTful API: Well-structured endpoints following REST best practices.
+## 🚀 Features
 
-Server-Side Rendering: Uses EJS templates for dynamic page rendering.
-Exception Handling: Custom exception responses for better error management.
+- **Question & Answer Platform**: Post, view, update, and delete questions and answers.
+- **Server-Side Rendering**: Uses EJS templates for dynamic HTML rendering.
+- **In-Memory Data Storage**: All data is stored in server memory arrays — no database required.
+- **RESTful API**: Clean and structured backend routes for resource management.
+- **Frontend Styling**: Simple UI styled with HTML and CSS.
+- **Lightweight & Easy to Run**: Minimal setup with Node.js and Express.
 
-🛠️ Tech Stack
-Layer	Technology
-Frontend	EJS, HTML, CSS, JavaScript
-Backend	NodeJs
+---
 
-📦 Installation & Setup
-Prerequisites
+## 🛠️ Tech Stack
 
-Node.js & npm 
+| Layer         | Technology              |
+|---------------|-------------------------|
+| Backend       | Node.js, Express        |
+| Templating    | EJS                     |
+| Frontend      | HTML, CSS, JavaScript   |
+| Data Storage  | In-memory Arrays        |
 
-Steps to Run
-Clone the repository
+---
 
-bash
-Copy
-Edit
+## 📦 Installation & Setup
+
+### Prerequisites
+
+- Node.js (v14+ recommended)
+- npm (comes with Node.js)
+
+### Steps to Run
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/SameerSinha1234567/restfulapi.git
 cd restfulapi
 
-
-Update database connection details in src/main/resources/application.properties:
-
-Access the app
-
-Open your browser at http://localhost:8080.
-
-The server renders pages using EJS templates; API endpoints are accessible for integration.
-
-⚙️ Usage
-Navigate to the homepage to view existing questions.
-
-Create, update, or delete questions and answers via UI forms.
-
-Backend REST APIs available for all CRUD operations on questions and answers:
-
-HTTP Method	Endpoint	Description
-GET	/questions	List all questions
-GET	/questions/{id}	Get question details
-POST	/questions	Create new question
-PUT	/questions/{id}	Update a question
-DELETE	/questions/{id}	Delete a question
-GET	/questions/{id}/answers	List answers for question
-POST	/questions/{id}/answers	Add answer to question
-PUT	/answers/{id}	Update an answer
-DELETE	/answers/{id}	Delete an answer
